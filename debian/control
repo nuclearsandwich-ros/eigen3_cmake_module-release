@@ -1,0 +1,12 @@
+Source: ros-verystable-eigen3-cmake-module
+Section: misc
+Priority: optional
+Maintainer: Shane Loretz <sloretz@openrobotics.org>
+Build-Depends: debhelper (>= 9.0.0), ros-verystable-ament-cmake, ros-verystable-ament-cmake-copyright, ros-verystable-ament-cmake-lint-cmake, ros-verystable-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-verystable-eigen3-cmake-module
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-verystable-ros-workspace
+Description: Exports a custom CMake module to find Eigen3.
